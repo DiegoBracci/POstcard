@@ -1,19 +1,46 @@
-body{background: black; font-size: 18px; font-family: 'Handlee', cursive;}
-.postcard{background: white; width: 500px; height: 350px; margin: auto; 
-	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px} 
-input{font-size: 18px;}
-.postcard h1{margin:0;font-family: "handlee", "cursive";}
+body{
+    background: black; font-size: 18px; font-family: 'Handlee', cursive;
+    }
+.postcard{
+    background: white; width: 500px; height: 350px; margin: auto; 
+	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 20px
+    } 
+input{
+    font-size: 18px;
+    }
+.postcard h1{
+    margin:0;font-family: "handlee", "cursive";
+    }
 
-.left-part{float: left; width: 50%;}
-.right-part{float: right;width: 50%}
-.right-part input{ display: block; width: 50%;}
+.left-part{
+    float: left; width: 50%;
+    }
+.right-part{
+    float: right;width: 50%
+    }
+.right-part input{ 
+    display: block; width: 50%;
+    }
 
-.postcard-body{overflow: hidden}
-.postcard-header img{float: right; max-height: 60px;}
-.postcard-header{overflow: hidden;}
-.postcard-footer{padding: 10px; text-align: center;}
-.postcard-footer input[type=submit]{border-bottom: 1px solid gray;
-border: none;}
-h1{font-size: 35px}
-.postcard-body input[type=text]{border: none; border-bottom: 2px solid gray;
-font-family: 'Handlee', cursive; width: 240px;margin-bottom: 10px; padding: 5px;}
+.postcard-body{
+    overflow: hidden
+    }
+.postcard-header img{
+    float: right; max-height: 60px;
+    }
+.postcard-header{
+    overflow: hidden;
+    }
+.postcard-footer{
+    padding: 10px; text-align: center;
+    }
+.postcard-footer input[type=submit]{
+    border-bottom: 1px solid gray;border: none;
+    }
+h1{
+    font-size: 35px
+    }
+.postcard-body input[type=text]{
+    border: none; border-bottom: 2px solid gray;
+    font-family: 'Handlee', cursive; width: 240px;margin-bottom: 10px; padding: 5px;
+    }
