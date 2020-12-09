@@ -32,10 +32,12 @@ input{
     overflow: hidden;
     }
 .postcard-footer{
-    padding: 10px; text-align: center;
+    padding: 15px; text-align: center;
     }
 .postcard-footer input[type=submit]{
-    border-bottom: 1px solid gray;border: none;
+    height: 50px;
+    width: 200px;
+    border: none;
     }
 h1{
     font-size: 35px
